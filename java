@@ -1,22 +1,29 @@
-function exampleFunction(requiredArgument) {
-    // Check if the required argument is provided
-    if (typeof requiredArgument === 'undefined') {
-        // If not provided, throw an error
-        throw new Error('Missing required argument');
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
 
-    // Rest of the function logic here
-    console.log('The required argument is:', requiredArgument);
-}
+        h1 {
+            color: #333;
+        }
 
-// Example usage
-try {
-    // This will run successfully
-    exampleFunction('Hello, World!');
-    
-    // This will throw an error since the argument is missing
-    // Uncomment the line below to see the error
-    // exampleFunction();
-} catch (error) {
-    console.error('Error:', error.message);
-}
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello, World!</h1>
+
+    <p>This is a simple HTML document.</p>
+
+</body>
+</html>
